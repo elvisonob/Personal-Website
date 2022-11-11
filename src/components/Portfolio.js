@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Portfolio.css';
 import Header from './Header';
 import image2 from './../images/youtube.png';
 import image3 from './../images/survey.png';
 import { Link } from 'react-router-dom';
+import VideoApp from './VideoApp';
+import SurveyApp from './SurveyApp';
 
 const Portfolio = () => {
+  const [showInfo, setShowInfo] = useState(false);
+  const [showInfo2, setShowInfo2] = useState(false);
+
+  const showInfoHandler = () => {
+    setShowInfo(null);
+  };
+
+  const showInfoHandler2 = () => {
+    setShowInfo2(null);
+  };
+
   return (
     <div>
       <Header />
@@ -15,7 +28,11 @@ const Portfolio = () => {
         <div class="project-container">
           <article class="project">
             <h3 class="project-titles">YouTube App</h3>
+
             <img src={image2} height="100%" width="100%" alt="" />
+
+            <li onClick={() => setShowInfo(!showInfo)}>Read Briefly</li>
+            {showInfo && <VideoApp onConfirm={showInfoHandler} />}
             <Link
               to={{ pathname: 'https://github.com/elvisonob/myYoutubeApp' }}
               target="_blank"
@@ -33,6 +50,8 @@ const Portfolio = () => {
           <article class="project">
             <h3 class="project-titles">Survey Collection App</h3>
             <img src={image3} height="100%" width="100%" alt="" />
+            <li onClick={() => setShowInfo2(!showInfo2)}>Read Briefly</li>
+            {showInfo2 && <SurveyApp onConfirm1={showInfoHandler2} />}
             <Link
               to={{
                 pathname:
