@@ -5,24 +5,13 @@
     border: 5px solid blue;
     border-radius: 50px;
     padding: 50px;
-    /* color: red; */
     background-color: black;
     margin-bottom: 500px;
 }
 
-
-/* body {
-    background-color: black;
-} */
-
 .main,
 h3 {
     color: blanchedalmond;
-}
-
-.wholePage1 {
-    display: grid;
-    grid-template-rows: 100px 600px 100px;
 }
 
 .name {
@@ -56,4 +45,8 @@ footer {
     padding: 20px;
     color: black;
     font-weight: bold;
+}
+
+h1 {
+    cursor: pointer;
 }

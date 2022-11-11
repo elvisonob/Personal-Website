@@ -22,11 +22,16 @@
     z-index: 100;
     overflow: hidden;
     border: 3px solid blue;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
+.proDetails,
 .projectContent,
-p {
-    background-color: white;
+.paragraph {
     font-size: small;
+}
+
+li {
+    cursor: pointer;
 }

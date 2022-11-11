@@ -7,7 +7,7 @@ const VideoApp = (props) => {
       <div className="backdrop" onClick={props.onConfirm} />
       <div className="proDetails">
         <div className="projectContent">
-          <p>
+          <p className="paragraph">
             This is a front-end application of a Video search App, which I built
             to demonstrate that I can design a User Interface webpage which
             fetches and displays information from an external API based on the

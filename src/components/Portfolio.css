@@ -42,3 +42,7 @@ li {
     color: black;
     font-size: large;
 }
+
+li {
+    text-decoration: none;
+}

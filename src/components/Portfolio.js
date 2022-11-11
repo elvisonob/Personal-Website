@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Portfolio.css';
 import Header from './Header';
-import image2 from './../images/youtube.png';
+import image2 from './../images/youtubeapp.jpg';
 import image3 from './../images/survey.png';
 import { Link } from 'react-router-dom';
 import VideoApp from './VideoApp';
@@ -27,12 +27,13 @@ const Portfolio = () => {
 
         <div class="project-container">
           <article class="project">
-            <h3 class="project-titles">YouTube App</h3>
+            <h3 class="project-titles">Video Search App</h3>
 
             <img src={image2} height="100%" width="100%" alt="" />
+            {showInfo && <VideoApp onConfirm={showInfoHandler} />}
 
             <li onClick={() => setShowInfo(!showInfo)}>Read Briefly</li>
-            {showInfo && <VideoApp onConfirm={showInfoHandler} />}
+
             <Link
               to={{ pathname: 'https://github.com/elvisonob/myYoutubeApp' }}
               target="_blank"
@@ -50,8 +51,9 @@ const Portfolio = () => {
           <article class="project">
             <h3 class="project-titles">Survey Collection App</h3>
             <img src={image3} height="100%" width="100%" alt="" />
-            <li onClick={() => setShowInfo2(!showInfo2)}>Read Briefly</li>
             {showInfo2 && <SurveyApp onConfirm1={showInfoHandler2} />}
+            <li onClick={() => setShowInfo2(!showInfo2)}>Read Briefly</li>
+
             <Link
               to={{
                 pathname:

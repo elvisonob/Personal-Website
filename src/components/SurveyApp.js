@@ -7,7 +7,7 @@ const SurveyApp = (props) => {
       <div className="backdrop" onClick={props.onConfirm1} />
       <div className="proDetails1">
         <div className="projectContent">
-          <p>
+          <p className="paragraph">
             This is a full stack application, which demonstrates that I
             understand the concept of authentication in web development, concept
             of CRUD and usage of Databases. A user is authenticated through

@@ -15,13 +15,13 @@ const Header = () => {
         </h1>
         <nav>
           <ul>
+            <li onClick={navigation}>Home</li>
             <Link to="/about">
               <li>About Me</li>
             </Link>
             <Link to="/portfolio">
               <li>Portfolio</li>
             </Link>
-            <li>Contact</li>
           </ul>
         </nav>
       </div>
