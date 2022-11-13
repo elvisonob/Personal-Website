@@ -14,11 +14,11 @@ const About = () => {
       <div className="wholePage">
         <div className="aboutMe">
           <p>
-            Hi, I am Elvis, a resolute and passionate Full Stack Software
+            Hi, I am Elvis, a gung-ho and passionate Full Stack Software
             Developer. Over a year ago, I decided to make a career change
             towards Software Development from a Project Engineering background
-            due to my fascination with computing and technology in general.
-            Since embarking on this journey, I went from the basics of software
+            due to my enthusiasm with computing and technology in general. Since
+            embarking on this journey, I went from the basics of software
             development, to been able to make a full stack application (Kindly
             check my portfolio page for more details). Furthermore, I love
             challenging and problem-solving tasks, and I like creating things
