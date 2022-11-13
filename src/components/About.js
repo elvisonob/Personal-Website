@@ -5,6 +5,7 @@ import image from './../images/elvis.jpg';
 import linkedin from './../images/linkedin.png';
 import github from './../images/github.jpg';
 import { Link } from 'react-router-dom';
+import CV from './../images/ElvisCV.pdf';
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
           <p>
             Hi, I am Elvis, a resolute and passionate Full Stack Software
             Developer. Over a year ago, I decided to make a career change
-            towards Software Development from a Project Engineering background,
+            towards Software Development from a Project Engineering background
             due to my fascination with computing and technology in general.
             Since embarking on this journey, I went from the basics of software
             development, to been able to make a full stack application (Kindly
@@ -52,6 +53,16 @@ const About = () => {
                 <img src={github} height="100%" width="100%" alt="" />
               </Link>
             </div>
+            <Link
+              style={{ textDecoration: 'none' }}
+              to={{ pathname: CV }}
+              target="_blank"
+              download
+            >
+              <div className="cv">
+                <h2>Download CV</h2>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

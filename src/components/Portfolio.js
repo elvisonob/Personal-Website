@@ -35,12 +35,14 @@ const Portfolio = () => {
             <li onClick={() => setShowInfo(!showInfo)}>Read Briefly</li>
 
             <Link
+              style={{ textDecoration: 'none' }}
               to={{ pathname: 'https://github.com/elvisonob/myYoutubeApp' }}
               target="_blank"
             >
               <li>Github</li>
             </Link>
             <Link
+              style={{ textDecoration: 'none' }}
               to={{ pathname: 'https://videocomponent-hooks.vercel.app/' }}
               target="_blank"
             >
@@ -55,6 +57,7 @@ const Portfolio = () => {
             <li onClick={() => setShowInfo2(!showInfo2)}>Read Briefly</li>
 
             <Link
+              style={{ textDecoration: 'none' }}
               to={{
                 pathname:
                   'https://github.com/elvisonob/Feedback-Collection-Full-stack',
@@ -64,6 +67,7 @@ const Portfolio = () => {
               <li>Github</li>
             </Link>
             <Link
+              style={{ textDecoration: 'none' }}
               to={{ pathname: 'https://dry-mountain-07093.herokuapp.com/' }}
               target="_blank"
             >

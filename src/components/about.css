@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+body {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 .aboutMe {
     padding: 40px;
     display: grid;
@@ -31,4 +36,8 @@
 
 p {
     font-size: x-large;
+}
+
+.cv {
+    color: orange;
 }

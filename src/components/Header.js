@@ -8,7 +8,7 @@ const Header = () => {
     history.push('/');
   };
   return (
-    <div>
+    <div className="overAllHeader">
       <div className="header">
         <h1 className="logo" onClick={navigation}>
           Elvis Onobhayedo

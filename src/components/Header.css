@@ -21,6 +21,12 @@
     list-style: none;
 }
 
+.overAllHeader {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .header {
     display: grid;
     grid-template-columns: auto 1fr;
