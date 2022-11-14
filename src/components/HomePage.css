@@ -1,5 +1,33 @@
-.main {
+.wholePage1 {
     display: grid;
+    grid-template: 'header header header' 100px 'left main right' 1fr 'footer footer footer' 100px / 100px 1fr 100px;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+    .wholePage1 {
+        display: grid;
+        grid-template: ' header' 100px ' main' 1fr ' footer' 100px / 1fr;
+    }
+}
+
+.mainBody,
+.main,
+.left,
+.right {
+    background-color: black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.mainBody {
+    grid-area: main;
+}
+
+.main {
     justify-content: center;
     padding-top: 100px;
     border: 5px solid blue;
@@ -45,6 +73,7 @@ footer {
     padding: 20px;
     color: black;
     font-weight: bold;
+    grid-area: footer;
 }
 
 h1 {

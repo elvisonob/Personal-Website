@@ -35,6 +35,7 @@
 
 .header nav {
     display: grid;
+    grid-template-rows: 20px 1fr 1fr 1fr;
     align-content: center;
     justify-content: right;
 }
