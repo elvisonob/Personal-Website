@@ -43,7 +43,9 @@ const Portfolio = () => {
             </Link>
             <Link
               style={{ textDecoration: 'none' }}
-              to={{ pathname: 'https://videocomponent-hooks.vercel.app/' }}
+              to={{
+                pathname: 'https://videocomponent-hooks-elvisonob.vercel.app/',
+              }}
               target="_blank"
             >
               <li>Link</li>

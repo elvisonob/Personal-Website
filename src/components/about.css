@@ -5,9 +5,10 @@
     font-family: sans-serif;
 }
 
-body {
+.imagesSizing {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 1fr 50px 50px;
+    grid-gap: 10px;
 }
 
 .aboutMe {
@@ -35,7 +36,7 @@ body {
 }
 
 p {
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .cv {

@@ -29,13 +29,7 @@ const About = () => {
           </p>
           <p></p>
           <div className="imagesSizing">
-            <img
-              src={image}
-              style={{ borderRadius: '50px 50px 50px 50px' }}
-              height="450px"
-              width="300px"
-              alt=""
-            />
+            <img src={image} height="450px" width="300px" alt="" />
             <div className="socialMedia">
               <Link
                 to={{

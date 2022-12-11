@@ -15,6 +15,7 @@ const Header = () => {
         </h1>
         <nav>
           <ul>
+            <div className="div"></div>
             <li onClick={navigation}>Home</li>
             <Link to="/about">
               <li>About Me</li>
