@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './Header';
 import './about.css';
-import image from './../images/elvis.jpg';
+import image from './../images/calm-pic.jpg';
 import linkedin from './../images/linkedin.png';
 import github from './../images/github.jpg';
 import { Link } from 'react-router-dom';
-import CV from './../images/ElvisCV.pdf';
+import CV from './../images/Elvis 2023 CV.pdf';
 
 const About = () => {
   return (
@@ -14,11 +14,11 @@ const About = () => {
       <div className="wholePage">
         <div className="aboutMe">
           <p>
-            Hi, I am Elvis, a gung-ho and passionate Full Stack Software
-            Developer. Over a year ago, I decided to make a career change
-            towards Software Development from a Project Engineering background
-            due to my enthusiasm with computing and technology in general. Since
-            embarking on this journey, I went from the basics of software
+            Hi, I am Elvis, a gung-ho and an enthusiastic Full Stack Software
+            Developer. I made a concerted decision to specialize in Software
+            Development from an Electrical and Electronics background due to my
+            unwavering enthusiasm with computing and technology in general.
+            Since embarking on this journey, I went from the basics of software
             development, to been able to make a full stack application (Kindly
             check my portfolio page for more details). Furthermore, I love
             challenging and problem-solving tasks, and I like creating things
@@ -29,7 +29,7 @@ const About = () => {
           </p>
           <p></p>
           <div className="imagesSizing">
-            <img src={image} height="450px" width="300px" alt="" />
+            <img src={image} height="300px" width="400px" alt="" />
             <div className="socialMedia">
               <Link
                 to={{

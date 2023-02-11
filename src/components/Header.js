@@ -17,7 +17,7 @@ const Header = () => {
           <ul>
             <div className="div"></div>
             <li onClick={navigation}>Home</li>
-            <Link to="/about">
+            <Link to="/about" className={() => {}}>
               <li>About Me</li>
             </Link>
             <Link to="/portfolio">

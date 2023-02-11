@@ -1,57 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .header {
-    background-color: peachpuff;
+  background-color: peachpuff;
 }
 
 .header .logo,
 .header nav,
 .header ul,
 .header ul li {
-    display: inline;
+  display: inline;
 }
 
 .header ul {
-    margin-left: 20px;
-    list-style: none;
+  margin-left: 20px;
+  list-style: none;
 }
 
 .overAllHeader {
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    padding: 35px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 35px;
 }
 
 .header nav {
-    display: grid;
-    grid-template-rows: 20px 1fr 1fr 1fr;
-    align-content: center;
-    justify-content: right;
+  display: grid;
+  grid-template-rows: 20px 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: right;
 }
 
 .header ul li {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .header nav ul li {
-    color: white;
-    justify-content: right;
+  color: white;
+  justify-content: right;
 }
 
 .header li {
-    background-color: blue;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px 20px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+  text-decoration: underline;
 }
