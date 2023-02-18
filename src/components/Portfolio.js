@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Portfolio.css';
 import Header from './Header';
 import image2 from './../images/youtubeapp.jpg';
-import image3 from './../images/survey.png';
+import image3 from './../images/10219071.jpg';
 import { Link } from 'react-router-dom';
 import VideoApp from './VideoApp';
 import SurveyApp from './SurveyApp';
@@ -53,7 +53,7 @@ const Portfolio = () => {
           </article>
 
           <article class="project">
-            <h3 class="project-titles">Survey Collection App</h3>
+            <h3 class="project-titles">Current Time Checker</h3>
             <img src={image3} height="100%" width="100%" alt="" />
             {showInfo2 && <SurveyApp onConfirm1={showInfoHandler2} />}
             <li onClick={() => setShowInfo2(!showInfo2)}>Read Briefly</li>
@@ -61,20 +61,19 @@ const Portfolio = () => {
             <Link
               style={{ textDecoration: 'none' }}
               to={{
-                pathname:
-                  'https://github.com/elvisonob/Feedback-Collection-Full-stack',
+                pathname: 'https://github.com/elvisonob/Current-time-checker',
               }}
               target="_blank"
             >
               <li>Github</li>
             </Link>
-            <Link
+            {/* <Link
               style={{ textDecoration: 'none' }}
               to={{ pathname: 'https://dry-mountain-07093.herokuapp.com/' }}
               target="_blank"
             >
               <li>Link</li>
-            </Link>
+            </Link> */}
           </article>
         </div>
       </section>

@@ -11,7 +11,7 @@ const Header = () => {
     <div>
       <div className="header">
         <h1 className="logo" onClick={navigation}>
-          Elvis Onobhayedo
+          Elvis Ono
         </h1>
         <nav>
           <ul>

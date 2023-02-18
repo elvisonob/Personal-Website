@@ -8,12 +8,9 @@ const SurveyApp = (props) => {
       <div className="proDetails1">
         <div className="projectContent">
           <p className="paragraph">
-            This is a full stack application, which demonstrates that I
-            understand the concept of authentication in web development, concept
-            of CRUD and usage of Databases. A user is authenticated through
-            Google Oauth to gain access to send a survey to client’s email,
-            which is routed from the client side of the application to the
-            server side.
+            This is a time checker application, it fetches the current time of
+            three major cities in Europe, and the aim of this project is to
+            establish my working understanding with using external APIs
           </p>
           <button onClick={props.onConfirm1}>Close</button>
         </div>

@@ -13,7 +13,7 @@ const HomePage = () => {
       <div className="wholePage1">
         <div className="header">
           <h1 className="logo" onClick={navigation}>
-            Elvis Onobhayedo
+            Elvis Ono
           </h1>
           <nav>
             <ul>
@@ -30,9 +30,9 @@ const HomePage = () => {
         <div className="left">left</div>
         <div className="mainBody">
           <div className="main">
-            <h1 className="name">Elvis Onobhayedo</h1>
+            <h1 className="name">Elvis Ono</h1>
             <h1 className="title">Full-Stack Software Developer</h1>
-            <h3>based in Scotland, United Kingdom</h3>
+            <h3>based in Scotland</h3>
             <br />
             <p>
               HTML/CSS - Javascript - React - Redux- NodeJS - ExpressJS -

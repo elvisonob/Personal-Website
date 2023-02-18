@@ -33,8 +33,7 @@ const About = () => {
             <div className="socialMedia">
               <Link
                 to={{
-                  pathname:
-                    'https://www.linkedin.com/in/elvis-onobhayedo-5bb4081b6/',
+                  pathname: 'https://www.linkedin.com/in/elvis-ono-5bb4081b6/',
                 }}
                 target="_blank"
               >
