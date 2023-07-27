@@ -9,7 +9,6 @@
 
 .leftHandSide {
     grid-area: leftHandSide;
-    border: 1px dashed white;
     padding: 50px;
     display: grid;
     grid-template-areas: 'textContent';
@@ -25,7 +24,6 @@
 .rightHandSide {
     grid-area: rightHandSide;
     color: white;
-    border: 1px dashed white;
     display: grid;
     padding: 2rem;
     grid-template-rows: 600px 50px 50px;
@@ -38,17 +36,6 @@
     color: white;
     grid-gap: 10px;
     justify-content: center;
-}
-
-.socialMediaLink .linkedin,
-.socialMediaLink .github {
-    border: 1px dashed white;
-}
-
-.rightHandSide .picture,
-.rightHandside .socialMediaLink,
-.rightHandSide .cv {
-    border: 1px dashed white;
 }
 
 .rightHandSide .cv {
