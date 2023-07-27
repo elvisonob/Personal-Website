@@ -1,0 +1,78 @@
+.AboutMeContainer {
+    display: grid;
+    grid-template: 'leftHandSide rightHandSide' 1fr/ 1fr 1fr;
+    grid-gap: 10px;
+    height: 100vh;
+    width: 98vw;
+    background-color: black;
+}
+
+.leftHandSide {
+    grid-area: leftHandSide;
+    border: 1px dashed white;
+    padding: 50px;
+    display: grid;
+    grid-template-areas: 'textContent';
+    grid-template-columns: 1fr;
+}
+
+.leftHandSide .content {
+    line-height: 1.5;
+    grid-area: textContent;
+    text-align: justify;
+}
+
+.rightHandSide {
+    grid-area: rightHandSide;
+    color: white;
+    border: 1px dashed white;
+    display: grid;
+    padding: 2rem;
+    grid-template-rows: 600px 50px 50px;
+    grid-gap: 5px;
+}
+
+.rightHandSide .socialMediaLink {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    color: white;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.socialMediaLink .linkedin,
+.socialMediaLink .github {
+    border: 1px dashed white;
+}
+
+.rightHandSide .picture,
+.rightHandside .socialMediaLink,
+.rightHandSide .cv {
+    border: 1px dashed white;
+}
+
+.rightHandSide .cv {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+    justify-self: center;
+}
+
+.rightHandSide .picture {
+    align-items: left;
+    padding: 10rem;
+}
+
+.rightHandSide a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .AboutMeContainer {
+        display: grid;
+        grid-template: 'leftHandSide' 1fr 'rightHandSide' 1fr/ 1fr;
+        grid-gap: 10px;
+        height: 100vh;
+        width: 98vw;
+    }
+}

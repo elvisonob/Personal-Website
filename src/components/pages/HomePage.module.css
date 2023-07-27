@@ -1,0 +1,58 @@
+.text {
+    border-radius: 5px;
+    padding: 5rem;
+    background-color: black;
+    grid-area: text;
+    border: 10px solid pink;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+
+/* body {
+    background-color: black;
+} */
+
+.container {
+    display: grid;
+    grid-template: 'text' 1fr / 1fr;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: orangered;
+    font-weight: 5rem;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color: palevioletred;
+}
+
+
+/* .container {
+  display: grid;
+  grid-template: 'header header header header' 50px 
+  'left-menu main right-menu small-menu' 1fr / 
+  200px 1fr 200px 50px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  background-color: lightgoldenrodyellow;
+  grid-gap: 5px;
+  padding: 2px;
+} */
