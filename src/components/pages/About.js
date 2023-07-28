@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './About.module.css';
-import image from '../../images/calm-pic.jpg';
+import image from '../../images/coding-pic-edit.jpg';
 import github from '../../images/github.jpg';
 import linkedin from '../../images/linkedin.png';
 import ElvisCV from '../../images/Elvis IT Resume.pdf';
@@ -30,7 +30,9 @@ const About = () => {
       </div>
       <div className={classes.rightHandSide}>
         <div className={classes.picture}>
-          <img src={image} width="80%" height="80%" alt="" />
+          <div></div>
+          <img src={image} width="100%" height="60%" alt="" />
+          <div></div>
         </div>
         <div className={classes.socialMediaLink}>
           <div className={classes.linkedin}>

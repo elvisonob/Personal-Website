@@ -21,8 +21,21 @@
     background-color: black;
 }
 
-h1 {
+.text .name-title {
     color: orange;
+    font-size: 6rem;
+}
+
+.text .role-title {
+    font-size: 5rem;
+}
+
+.text .location-name {
+    font-size: 3rem;
+}
+
+.text .current-skills {
+    font-size: 2rem;
 }
 
 h2 {
@@ -38,21 +51,18 @@ p {
     color: palevioletred;
 }
 
-
-/* .container {
-  display: grid;
-  grid-template: 'header header header header' 50px 
-  'left-menu main right-menu small-menu' 1fr / 
-  200px 1fr 200px 50px;
-  height: 100vh;
-  width: 100vw;
+@media screen and (max-width: 541px) {
+    .text .name-title {
+        color: orange;
+        font-size: 3rem;
+    }
+    .text .role-title {
+        font-size: 2rem;
+    }
+    .text .location-name {
+        font-size: 2rem;
+    }
+    .text .current-skills {
+        font-size: 1rem;
+    }
 }
-
-.header {
-  grid-area: header;
-  display: grid;
-  grid-template-columns: 200px 1fr 1fr;
-  background-color: lightgoldenrodyellow;
-  grid-gap: 5px;
-  padding: 2px;
-} */

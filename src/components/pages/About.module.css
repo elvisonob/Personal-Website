@@ -15,18 +15,27 @@
     grid-template-columns: 1fr;
 }
 
+.content h1 {
+    color: orange;
+}
+
 .leftHandSide .content {
     line-height: 1.5;
     grid-area: textContent;
     text-align: justify;
 }
 
+.leftHandSide p {
+    font-size: 20px;
+}
+
 .rightHandSide {
     grid-area: rightHandSide;
     color: white;
+    /* border: 1px dashed white; */
     display: grid;
     padding: 2rem;
-    grid-template-rows: 600px 50px 50px;
+    grid-template-rows: 1fr 50px 50px;
     grid-gap: 5px;
 }
 
@@ -38,6 +47,13 @@
     justify-content: center;
 }
 
+
+/* .rightHandSide .picture,
+.rightHandside .socialMediaLink,
+.rightHandSide .cv {
+    border: 1px dashed white;
+} */
+
 .rightHandSide .cv {
     font-size: 30px;
     font-weight: bold;
@@ -46,8 +62,9 @@
 }
 
 .rightHandSide .picture {
-    align-items: left;
-    padding: 10rem;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    margin-top: 6rem;
 }
 
 .rightHandSide a {

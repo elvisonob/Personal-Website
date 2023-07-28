@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Portfolio.module.css';
+import foodApp from '../../images/cropped picture.jpg';
+import youtubeapp from '../../images/youtubeapp.jpg';
 const Portfolio = () => {
   return (
     <section className={classes.portfolio}>
@@ -8,7 +10,7 @@ const Portfolio = () => {
       <div className={classes['project-container']}>
         <article className={classes.project}>
           <h2>Shopping App</h2>
-          <p>Image to come</p>
+          <img src={foodApp} width="100%" height="100%" alt="" />
           <Link
             to={{ pathname: 'https://github.com/elvisonob/Shopping-Product' }}
             target="_blank"
@@ -26,7 +28,7 @@ const Portfolio = () => {
         </article>
         <article className={classes.project}>
           <h2>Video Search App</h2>
-          <p>Image to come</p>
+          <img src={youtubeapp} width="100%" height="100%" alt="" />
           <Link
             to={{ pathname: 'https://github.com/elvisonob/Video-Search-App' }}
             target="_blank"

@@ -1,6 +1,5 @@
 .portfolio {
-    background-color: pink;
-    height: 100vh;
+    background-color: black;
 }
 
 .portfolio .section-title {
@@ -8,13 +7,14 @@
 }
 
 .project {
-    border: 1px solid black;
+    border: 5px solid orange;
+    border-radius: 5px;
     display: grid;
-    grid-template-rows: 50px 400px 50px 50px;
+    grid-template-rows: 50px 1fr 50px 50px;
 }
 
 .project h2 {
-    color: black;
+    color: white;
     font-size: medium;
     text-align: center;
 }
@@ -26,9 +26,13 @@
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 5px;
+    grid-gap: 10px;
 }
 
-article .link {
+.project .link {
     text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
 }
