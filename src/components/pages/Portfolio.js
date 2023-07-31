@@ -19,7 +19,7 @@ const Portfolio = () => {
             Github
           </Link>
           <Link
-            to={{ pathName: 'https://elvis-shopping-product.vercel.app/' }}
+            to={{ pathname: 'https://elvis-shopping-product.vercel.app/' }}
             target="_blank"
             className={classes.link}
           >
