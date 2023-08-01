@@ -13,25 +13,25 @@ const About = () => {
         <section className={classes.content}>
           <h1>About Me</h1>
           <p>
-            Hi, I am Elvis, a gung-ho and an enthusiastic Full Stack Software
+            Hello dear, I am Elvis, an enthusiastic Full Stack Software
             Developer. I made a concerted decision to specialize in Software
-            Development from an Electrical and Electronics background due to my
-            unwavering enthusiasm with computing and technology in general.
-            Since embarking on this journey, I went from the basics of software
-            development, to been able to make a full stack application (Kindly
-            check my portfolio page for more details). Furthermore, I love
-            challenging and problem-solving tasks, and I like creating things
-            from scratch, and software development has really provided the
-            avenue for me to explore such ideas, and above all, I like learning
-            new things and being able to apply the knowledge to
-            everyday/technology scenarios.
+            Development from an Electrical and Electronics Engineering
+            background due to my unwavering enthusiasm for computing and
+            technology. Since embarking on this journey, I went from the basics
+            of software development, to been able to create a full stack
+            application (Kindly check my portfolio page for more details).
+            Furthermore, I love challenging and problem-solving tasks, and I
+            like creating things from scratch, and software development has
+            really provided the avenue for me to explore such ideas, and above
+            all, I like learning new things and being able to apply the
+            knowledge to everyday scenarios.
           </p>
         </section>
       </div>
       <div className={classes.rightHandSide}>
         <div className={classes.picture}>
           <div></div>
-          <img src={image} width="100%" height="60%" alt="" />
+          <img src={image} width="100%" height="80%" alt="" />
           <div></div>
         </div>
         <div className={classes.socialMediaLink}>
