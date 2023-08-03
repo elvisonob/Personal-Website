@@ -48,7 +48,8 @@
 }
 
 
-/* .rightHandSide .picture,
+/* .leftHandSide,
+.rightHandSide .picture,
 .rightHandside .socialMediaLink,
 .rightHandSide .cv {
     border: 1px dashed white;
@@ -74,7 +75,7 @@
 @media screen and (max-width: 1000px) {
     .AboutMeContainer {
         display: grid;
-        grid-template: 'leftHandSide' 1fr 'rightHandSide' 1fr/ 1fr;
+        grid-template: 'leftHandSide' 1fr 'rightHandSide' 1fr / 1fr;
         grid-gap: 10px;
         height: 100vh;
         width: 98vw;
@@ -84,5 +85,42 @@
 @media screen and (max-width: 750px) {
     .leftHandSide p {
         font-size: 18px;
+    }
+    .rightHandSide .picture .resize {
+        width: 300px;
+        height: auto;
+    }
+    .rightHandSide .picture .resize {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .rightHandSide .picture .resize {
+        width: 200px;
+        height: auto;
+    }
+    .rightHandSide .picture .resize {
+        width: 200px;
+        height: auto;
+    }
+    .AboutMeContainer {
+        display: grid;
+        grid-template: 'leftHandSide' 400px 'rightHandSide' 200px / 1fr;
+        grid-gap: 10px;
+        height: 100vh;
+        width: 98vw;
+    }
+    .leftHandSide p {
+        font-size: 15px;
+    }
+    .rightHandSide .socialMediaLink {
+        margin-top: -150px;
+    }
+    .gitHubImage,
+    .linkedinImage {
+        width: 50px;
+        height: auto;
     }
 }

@@ -31,7 +31,13 @@ const About = () => {
       <div className={classes.rightHandSide}>
         <div className={classes.picture}>
           <div></div>
-          <img src={image} width="100%" height="80%" alt="" />
+          <img
+            className={classes.resize}
+            src={image}
+            width="100%"
+            height="80%"
+            alt=""
+          />
           <div></div>
         </div>
         <div className={classes.socialMediaLink}>
@@ -43,7 +49,13 @@ const About = () => {
               }}
               target="_blank"
             >
-              <img src={linkedin} width="100%" height="100%" alt="" />
+              <img
+                className={classes.linkedinImage}
+                src={linkedin}
+                width="100%"
+                height="100%"
+                alt=""
+              />
             </Link>
           </div>
           <div className={classes.github}>
@@ -51,7 +63,13 @@ const About = () => {
               to={{ pathname: 'https://github.com/elvisonob' }}
               target="_blank"
             >
-              <img src={github} width="100%" height="100%" alt="" />
+              <img
+                className={classes.gitHubImage}
+                src={github}
+                width="100%"
+                height="100%"
+                alt=""
+              />
             </Link>
           </div>
         </div>
