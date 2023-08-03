@@ -3,8 +3,8 @@
     padding: 5rem;
     background-color: black;
     grid-area: text;
-    border: 10px solid pink;
-    border-radius: 5px;
+    /* border: 10px solid pink;
+    border-radius: 5px; */
     margin: 2rem;
 }
 
