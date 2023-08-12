@@ -4,12 +4,15 @@
 
 .portfolio .section-title {
     text-align: center;
+    color: orange;
+    font-size: xx-large;
 }
 
 .project {
     border: 5px solid orange;
     border-radius: 5px;
     display: grid;
+    padding: 10px;
     grid-template-rows: 50px 400px 50px 50px;
 }
 
@@ -26,7 +29,8 @@
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 20px;
+    padding: 40px;
 }
 
 .project .link {
