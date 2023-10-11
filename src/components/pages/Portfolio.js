@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Portfolio.module.css';
-import foodApp from '../../images/cropped picture.jpg';
+import foodApp from '../../images/Cart screenshot.png';
 import youtubeapp from '../../images/youtubeapp.jpg';
 import checkTimer from '../../images/10219071.jpg';
 const Portfolio = () => {
@@ -33,14 +33,18 @@ const Portfolio = () => {
           <h2>Shopping App</h2>
           <img src={foodApp} width="100%" height="100%" alt="" />
           <Link
-            to={{ pathname: 'https://github.com/elvisonob/Shopping-Product' }}
+            to={{
+              pathname: 'https://github.com/elvisonob/Front-End-Shopping-App',
+            }}
             target="_blank"
             className={classes.link}
           >
             Github
           </Link>
           <Link
-            to={{ pathname: 'https://elvis-shopping-product.vercel.app/' }}
+            to={{
+              pathname: 'https://shopping-cart-bke9dkwn5-elvisonob.vercel.app',
+            }}
             target="_blank"
             className={classes.link}
           >
