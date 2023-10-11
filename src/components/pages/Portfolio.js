@@ -10,26 +10,6 @@ const Portfolio = () => {
       <h1 className={classes['section-title']}>Portfolio</h1>
       <div className={classes['project-container']}>
         <article className={classes.project}>
-          <h2>Current Time Checker</h2>
-          <img src={checkTimer} width="100%" height="100%" alt="" />
-          <Link
-            to={{
-              pathname: 'https://github.com/elvisonob/Current-time-checker',
-            }}
-            target="_blank"
-            className={classes.link}
-          >
-            Github
-          </Link>
-          <Link
-            to={{ pathname: 'https://check-timer.vercel.app/' }}
-            target="_blank"
-            className={classes.link}
-          >
-            Link to view
-          </Link>
-        </article>
-        <article className={classes.project}>
           <h2>Shopping App</h2>
           <img src={foodApp} width="100%" height="100%" alt="" />
           <Link
@@ -45,6 +25,26 @@ const Portfolio = () => {
             to={{
               pathname: 'https://shopping-cart-bke9dkwn5-elvisonob.vercel.app',
             }}
+            target="_blank"
+            className={classes.link}
+          >
+            Link to view
+          </Link>
+        </article>
+        <article className={classes.project}>
+          <h2>Current Time Checker</h2>
+          <img src={checkTimer} width="100%" height="100%" alt="" />
+          <Link
+            to={{
+              pathname: 'https://github.com/elvisonob/Current-time-checker',
+            }}
+            target="_blank"
+            className={classes.link}
+          >
+            Github
+          </Link>
+          <Link
+            to={{ pathname: 'https://check-timer.vercel.app/' }}
             target="_blank"
             className={classes.link}
           >
