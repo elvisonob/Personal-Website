@@ -52,19 +52,18 @@ p {
     color: palevioletred;
 }
 
-
-/* @media screen and (max-width: 541px) {
+@media screen and (max-width: 541px) {
     .text .name-title {
         color: orange;
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .text .role-title {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .text .location-name {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .text .current-skills {
-        font-size: 1rem;
+        font-size: 3rem;
     }
-} */
+}
