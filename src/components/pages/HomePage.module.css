@@ -52,7 +52,8 @@ p {
     color: palevioletred;
 }
 
-@media screen and (max-width: 541px) {
+
+/* @media screen and (max-width: 541px) {
     .text .name-title {
         color: orange;
         font-size: 3rem;
@@ -66,4 +67,4 @@ p {
     .text .current-skills {
         font-size: 1rem;
     }
-}
+} */
