@@ -55,15 +55,15 @@ p {
 @media screen and (max-width: 541px) {
     .text .name-title {
         color: orange;
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .text .role-title {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .text .location-name {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .text .current-skills {
-        font-size: 3rem;
+        font-size: 1rem;
     }
 }

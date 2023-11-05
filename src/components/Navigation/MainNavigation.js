@@ -36,7 +36,7 @@ const MainNavigation = (props) => {
           <span />
         </button>
         <h1 className={classes['main-navigation__title']}>
-          <Link to="/">ELVIS</Link>
+          <Link to="/">ELVIS-Tech</Link>
         </h1>
         <nav className={classes['main-navigation__header-nav']}>
           <NavLinks />
