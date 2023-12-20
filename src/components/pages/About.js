@@ -44,8 +44,7 @@ const About = () => {
           <div className={classes.linkedin}>
             <Link
               to={{
-                pathname:
-                  'https://www.linkedin.com/in/elvis-onobhayedo-5bb4081b6/',
+                pathname: 'https://www.linkedin.com/in/elvis-ono-5bb4081b6/',
               }}
               target="_blank"
             >
