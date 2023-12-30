@@ -19,6 +19,16 @@
     color: orange;
 }
 
+.aboutMeTop {
+    color: pink;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.aboutMe {
+    color: orange;
+}
+
 .leftHandSide .content {
     line-height: 1.5;
     grid-area: textContent;
@@ -50,7 +60,7 @@
 .rightHandSide .cv {
     font-size: 30px;
     font-weight: bold;
-    color: brown;
+    color: orange;
     justify-self: center;
 }
 

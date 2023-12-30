@@ -11,8 +11,8 @@ const About = () => {
     <div className={classes.AboutMeContainer}>
       <div className={classes.leftHandSide}>
         <section className={classes.content}>
-          <h1>About Me</h1>
-          <p>
+          <div className={classes.aboutMeTop}>About Me</div>
+          <p className={classes.aboutMe}>
             Hello dear, I am Elvis, an enthusiastic Full Stack Software
             Developer. I made a concerted decision to specialize in Software
             Development from an Electrical and Electronics Engineering

@@ -10,7 +10,7 @@ const HomePage = () => {
         <h3 className={classes['location-name']}>based in United Kingdom</h3>
         <p className={classes['current-skills']}>
           HTML/CSS - JavaScript - TypeScript - React - NextJS - NodeJS -
-          ExpressJS - API creation(REST & GraphQL)-OOP - Git - GitHub - MongoDB,
+          ExpressJS - API creation(REST & GraphQL) - OOP - Git - GitHub - SQL -
           NoSQL
         </p>
       </div>

@@ -3,15 +3,8 @@
     padding: 5rem;
     background-color: black;
     grid-area: text;
-    /* border: 10px solid pink;
-  border-radius: 5px; */
     margin: 2rem;
 }
-
-
-/* body {
-    background-color: black;
-} */
 
 .container {
     display: grid;
@@ -49,7 +42,7 @@ h3 {
 }
 
 p {
-    color: palevioletred;
+    color: orange;
 }
 
 @media screen and (max-width: 541px) {
