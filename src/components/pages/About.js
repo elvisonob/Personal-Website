@@ -16,15 +16,15 @@ const About = () => {
             Hello dear, I am Elvis, an enthusiastic Full Stack Software
             Developer. I made a concerted decision to specialize in Software
             Development from an Electrical and Electronics Engineering
-            background due to my unwavering enthusiasm for computing and
-            technology. Since embarking on this journey, I went from the basics
-            of software development, to been able to create a full stack
-            application (Kindly check my portfolio page for more details).
-            Furthermore, I love challenging and problem-solving tasks, and I
-            like creating things from scratch and software development has
-            provided the avenue for me to explore such ideas, and above all, I
-            like learning new things and being able to apply the knowledge to
-            everyday scenarios.
+            background because of the thrill I feel when I write a simple line
+            of code that translates to an immediately useable art. Since
+            embarking on this journey, I went from the basics of software
+            development, to been able to create a full stack application (Kindly
+            check my portfolio page for more details). Furthermore, I love
+            challenging and problem-solving tasks, and I like creating things
+            from scratch and software development has provided the avenue for me
+            to explore such ideas, and above all, I like learning new things and
+            being able to apply the knowledge to everyday scenarios.
           </p>
         </section>
       </div>
