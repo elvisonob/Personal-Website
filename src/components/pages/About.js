@@ -13,19 +13,19 @@ const About = () => {
         <section className={classes.content}>
           <div className={classes.aboutMeTop}>About Me</div>
           <p className={classes.aboutMe}>
-            Hello dear, I am Elvis, an enthusiastic Full Stack Software
-            Developer. I made a deliberate decision to specialize in Software
-            Development, transitioning from an Electrical and Electronics
-            Engineering background. This choice was driven by the thrill I
-            experience when writing a simple line of code that transforms into
-            an immediately usable art. Since embarking on this journey, I went
-            from the basics of software development, to been able to create a
-            full stack application (Kindly check my portfolio page for more
-            details). Furthermore, I love challenging and problem-solving tasks,
-            and I like creating things from scratch and software development has
-            provided the avenue for me to explore such ideas, and above all, I
-            like learning new things and being able to apply the knowledge to
-            everyday scenarios.
+            Hello dear, I am Elvis, an enthusiastic Software Developer. I made a
+            deliberate decision to specialize in Software Development from an
+            Electrical and Electronics Engineering background. This choice was
+            driven by the thrill I feel when writing a simple line of code that
+            transforms into an immediately usable art. Since embarking on this
+            journey, I went from the basics of software development, to been
+            able to create a full stack application (Kindly check my portfolio
+            page for more details). Furthermore, I love challenging and
+            problem-solving tasks; I like creating things from scratch and also
+            building on preexisting things to make it more rarefy, and software
+            development has provided the avenue for me to explore such ideas,
+            and above all, I like learning new things and being able to apply
+            the knowledge to quotidian scenarios.
           </p>
         </section>
       </div>
