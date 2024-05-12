@@ -17,16 +17,15 @@ const About = () => {
             deliberate decision to specialize in Software Development from an
             Electrical and Electronics Engineering background. This choice was
             driven by the thrill I feel when writing a simple line of code that
-            transforms into an immediately usable art, and I recognize that
-            technology serves as a linchpin in our modern society. Since
-            embarking on this journey, I went from the basics of software
-            development, to been able to create a full stack application (kindly
-            check my portfolio page for more details). Furthermore, I love
-            challenging and problem-solving tasks. I enjoy creating things from
-            scratch and building on preexisting things to make them more
-            refined. Software development has provided the avenue for me to
-            explore such ideas, and above all, I like learning new things and
-            applying the knowledge to everyday scenarios.
+            transforms into an immediately usable art, and knowing that
+            technology serves as a linchpin in our modern society, I felt more
+            fulfilled contributing positively to the advancement of our world
+            through technology. Furthermore, I love challenging and
+            problem-solving tasks. I enjoy creating things from scratch and
+            building on preexisting things to make them more refined. Software
+            development has provided the avenue for me to explore such ideas,
+            and above all, I like learning new things and applying the knowledge
+            to everyday scenarios.
           </p>
         </section>
       </div>
