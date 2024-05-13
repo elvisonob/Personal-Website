@@ -17,8 +17,8 @@ const About = () => {
             deliberate decision to specialize in Software Development from an
             Electrical and Electronics Engineering background. This choice was
             driven by the thrill I feel when writing a simple line of code that
-            transforms into an immediately usable art, and knowing that
-            technology serves as a linchpin in our modern society, I felt more
+            transforms into an immediately usable art, and recognizing that
+            technology serves as a linchpin in our modern society, I feel more
             fulfilled contributing positively to the advancement of our world
             through technology. Furthermore, I love challenging and
             problem-solving tasks. I enjoy creating things from scratch and
