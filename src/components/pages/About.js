@@ -20,7 +20,7 @@ const About = () => {
             transforms into an immediately usable art; and recognizing that
             technology serves as a linchpin in our modern society, I feel more
             fulfilled contributing positively to the advancement of our world
-            through technology. Furthermore, I love challenging and
+            through information technology. Furthermore, I love challenging and
             problem-solving tasks. I enjoy creating things from scratch and
             building on preexisting things to make them more refined. Software
             development has provided the avenue for me to explore such ideas,
