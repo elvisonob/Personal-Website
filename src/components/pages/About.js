@@ -25,7 +25,7 @@ const About = () => {
             building on preexisting things to make them more refined. Software
             development has provided the avenue for me to explore such ideas,
             and above all, I like learning new things and applying the knowledge
-            to everyday scenarios.
+            to everyday situations.
           </p>
         </section>
       </div>
