@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Portfolio.module.css';
 import foodApp from '../../images/Cart screenshot.png';
-import quizApp from '../../images/Quiz.png';
+import FilmRecommend from '../../images/FilmRecommend.png';
 import animalSimulation from '../../images/animal simulation.png';
 const Portfolio = () => {
   return (
@@ -10,10 +10,12 @@ const Portfolio = () => {
       <h1 className={classes['section-title']}>Portfolio</h1>
       <div className={classes['project-container']}>
         <article className={classes.project}>
-          <h2>Quiz Application</h2>
-          <img src={quizApp} width="100%" height="100%" alt="" />
+          <h2>Film Recommendation App</h2>
+          <img src={FilmRecommend} width="100%" height="100%" alt="" />
           <Link
-            to={{ pathname: 'https://github.com/elvisonob/Quiz-Project' }}
+            to={{
+              pathname: 'https://github.com/elvisonob/Film-Recommendation-App',
+            }}
             target="_blank"
             className={classes.link}
           >
@@ -21,7 +23,7 @@ const Portfolio = () => {
           </Link>
           <Link
             to={{
-              pathname: 'https://quiz-project-lemon.vercel.app/',
+              pathname: 'https://film-app-gamma-two.vercel.app/',
             }}
             target="_blank"
             className={classes.link}
