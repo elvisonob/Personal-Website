@@ -34,7 +34,7 @@ p {
   color: orange;
 }
 
-@media (max-width: 446px) {
+@media (max-width: 447px) {
   .role-title {
     font-size: 3rem;
   }
