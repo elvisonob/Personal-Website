@@ -83,7 +83,7 @@
 @media (max-width: 480px) {
   .information p {
     color: white;
-    font-size: clamp(16px, 3vw, 24px);
+    font-size: clamp(15px, 2vw, 24px);
     padding: 20px;
     line-height: 2;
     margin: 0 auto;
@@ -94,7 +94,7 @@
     width: 250px;
     height: auto;
     justify-self: center;
-    margin-top: 80px;
+    margin-top: 10px;
     border-radius: 50%;
   }
 }
