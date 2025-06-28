@@ -1,99 +1,162 @@
-.AboutMeContainer {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.information {
+  grid-area: 'information';
+  display: grid;
+}
+
+.information h2 {
+  text-align: center;
+  color: orange;
+}
+
+.information p {
+  color: white;
+  font-size: clamp(16px, 2vw, 24px);
+  padding: 20px;
+  line-height: 2;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.information h2 {
+  margin-top: 60px;
+}
+
+.leftMenu {
+  grid-area: 'leftMenu';
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.leftMenuOptions {
+  display: grid;
+  grid-gap: 50px;
+}
+
+.myimage {
+  height: auto;
+  width: 300px;
+  justify-self: center;
+  margin-top: 80px;
+  border-radius: 50%;
+}
+
+.socialMedia {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-gap: 10px;
+  justify-self: center;
+}
+
+.CV {
+  display: grid;
+  justify-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: orange;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
     display: grid;
-    grid-template: 'leftHandSide rightHandSide' 1fr/ 1fr 1fr;
-    grid-gap: 10px;
-    height: 100vh;
-    width: 98vw;
-    background-color: black;
-}
-
-.leftHandSide {
-    grid-area: leftHandSide;
-    padding: 50px;
-    display: grid;
-    grid-template-areas: 'textContent';
-    grid-template-columns: 1fr;
-}
-
-.content h1 {
-    color: orange;
-}
-
-.aboutMeTop {
-    color: pink;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.aboutMe {
-    color: orange;
-}
-
-.leftHandSide .content {
-    line-height: 1.5;
-    grid-area: textContent;
-    text-align: justify;
-}
-
-.leftHandSide p {
-    font-size: 25px;
-}
-
-.rightHandSide {
-    grid-area: rightHandSide;
-    color: white;
-    /* border: 1px dashed white; */
-    display: grid;
-    padding: 2rem;
-    grid-template-rows: 600px 50px 50px;
-    grid-gap: 5px;
-}
-
-.rightHandSide .socialMediaLink {
-    display: grid;
-    grid-template-columns: 50px 50px;
-    color: white;
-    grid-gap: 10px;
-    justify-content: center;
-}
-
-.rightHandSide .cv {
-    font-size: 30px;
-    font-weight: bold;
-    color: orange;
+    grid-template: 'information' 500px 'leftMenu' 200px/ 1fr;
+  }
+  .myimage {
+    height: auto;
+    width: 400px;
+    height: auto;
     justify-self: center;
+    margin-top: 80px;
+    border-radius: 50%;
+  }
+  .information p {
+    font-size: clamp(20px, 3vw, 24px);
+  }
 }
 
-.rightHandSide .picture {
-    display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    margin-top: 6rem;
+@media (max-width: 480px) {
+  .information p {
+    color: white;
+    font-size: clamp(16px, 3vw, 24px);
+    padding: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+  .myimage {
+    height: auto;
+    width: 250px;
+    height: auto;
+    justify-self: center;
+    margin-top: 80px;
+    border-radius: 50%;
+  }
 }
 
-.rightHandSide a {
-    text-decoration: none;
+@media (max-width: 320px) {
+  .myimage {
+    margin-top: 150px;
+  }
 }
 
-@media screen and (max-width: 1000px) {
-    .AboutMeContainer {
-        display: grid;
-        grid-template: 'leftHandSide' 1fr 'rightHandSide' 1fr / 1fr;
-        grid-gap: 10px;
-        height: 100vh;
-        width: 98vw;
-    }
+/* @media (max-width: 551px) {
+  .information p {
+    color: white;
+    font-size: 21px;
+    padding: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
 }
 
-@media screen and (max-width: 750px) {
-    .leftHandSide p {
-        font-size: 18px;
-    }
+@media (max-width: 466px) {
+  .information p {
+    color: white;
+    font-size: 19px;
+    padding: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
 }
 
-@media screen and (max-width: 497px) {
-    .rightHandSide .picture .resize {
-        max-width: 100%;
-        max-height: auto;
-        object-fit: cover;
-    }
+@media (max-width: 404px) {
+  .information p {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
 }
+
+@media (max-width: 370px) {
+  .information p {
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 2;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 321px) {
+  .myimage {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 274px) {
+  .myimage {
+    margin-top: 200px;
+  }
+} */
