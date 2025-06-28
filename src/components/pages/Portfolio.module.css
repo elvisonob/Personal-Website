@@ -1,42 +1,42 @@
 .portfolio {
-    background-color: black;
+  background-color: black;
 }
 
 .portfolio .section-title {
-    text-align: center;
-    color: orange;
-    font-size: xx-large;
+  text-align: center;
+  color: orange;
+  font-size: xx-large;
 }
 
 .project {
-    border: 5px solid orange;
-    border-radius: 5px;
-    display: grid;
-    padding: 10px;
-    grid-template-rows: 50px 400px 50px 50px;
+  border: 5px solid orange;
+  border-radius: 5px;
+  display: grid;
+  padding: 10px;
+  grid-template-rows: 50px 400px 50px 50px;
 }
 
 .project h2 {
-    color: white;
-    font-size: medium;
-    text-align: center;
+  color: white;
+  font-size: medium;
+  text-align: center;
 }
 
 .project p {
-    border: 1px dashed black;
+  border: 1px dashed black;
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
-    padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 10px;
+  padding: 40px;
 }
 
 .project .link {
-    text-align: center;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    margin-top: 15px;
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
 }
