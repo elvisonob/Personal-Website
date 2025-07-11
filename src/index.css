@@ -12,6 +12,10 @@ body {
   background-color: black;
 }
 
+.slide-in-left {
+  transform: translateX(-100%);
+}
+
 .slide-in-left-enter {
   transform: translateX(-100%);
 }
