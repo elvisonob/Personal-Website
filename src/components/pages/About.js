@@ -12,14 +12,14 @@ const About = () => {
       <div className={classes.information}>
         <h2>About Me</h2>
         <p>
-          Hi, I am Elvis — a passionate Software Developer with a background in
-          Electrical and Electronics Engineering. I transitioned into software
-          development driven by the excitement of turning ideas into functional
-          solutions through code. I thrive on solving problems, building
-          products (more information on my portfolio) from the ground up, and
-          refining existing systems. For me, software is a powerful way to
-          contribute to the world, and I am constantly learning to stay ahead in
-          this ever-evolving field.
+          Hi, I'm Elvis — a Software Developer with a foundation in Electrical
+          and Electronics Engineering. I transitioned into software development
+          driven by the excitement of turning ideas into functional solutions
+          that improve people's lives. I thrive on solving problems, building
+          products (more information on my portfolio page) from the ground up,
+          and refining existing systems. For me, coding is not just a craft but
+          a powerful way to make a positive impact. I'm constantly learning and
+          evolving to stay ahead in this fast-moving field.
         </p>
       </div>
       <div className={classes.leftMenu}>
