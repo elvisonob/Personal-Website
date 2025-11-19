@@ -36,7 +36,8 @@ const About = () => {
             </Link>
             <Link
               to={{
-                pathname: 'https://www.linkedin.com/in/elvis-ono-5bb4081b6/',
+                pathname:
+                  'https://www.linkedin.com/in/elvis-ono-meng-5bb4081b6/',
               }}
               target="_blank"
             >
