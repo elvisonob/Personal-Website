@@ -1,11 +1,12 @@
 .portfolio {
-    background-color: black;
+    background-color: #121826;
 }
 
 .portfolio .section-title {
     text-align: center;
     color: orange;
     font-size: xx-large;
+    margin-top: 100px;
 }
 
 .project {
@@ -28,7 +29,7 @@
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 10px;
     padding: 40px;
 }
