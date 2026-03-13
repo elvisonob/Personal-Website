@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './About.module.css';
-import image from '../../images/portfolio-pic.jpg';
+import image from '../../images/portfolio-pic2.jpeg';
 import github from '../../images/github.jpg';
 import linkedin from '../../images/linkedin.png';
 import ElvisCV from '../../images/Elvis IT Resume.pdf';

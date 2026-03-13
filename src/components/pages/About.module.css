@@ -43,11 +43,14 @@
 }
 
 .myimage {
-    height: auto;
     width: 300px;
+    height: 300px;
     justify-self: center;
     margin-top: 80px;
     border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .socialMedia {
