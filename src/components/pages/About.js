@@ -17,8 +17,8 @@ const About = () => {
           and individuals. I thrive on solving problems, building products (more
           information on my portfolio page) from the ground up, and refining
           existing systems. For me, coding is not just a craft but a powerful
-          way to make a good impact. I'm constantly learning and evolving to
-          stay ahead in this fast-moving field.
+          way to make a significant impact. I'm constantly learning and evolving
+          to stay ahead in this fast-moving field.
         </p>
       </div>
       <div className={classes.leftMenu}>
